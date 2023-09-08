@@ -33,7 +33,7 @@ dependencies:
   get_it: ^7.6.4
   injectable: ^2.3.0
   internet_connection_checker: ^1.0.0+1
-  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.1
   rest_api_package:
     git:
       url: https://github.com/mrasityilmaz/rest_api_package.git
@@ -68,6 +68,7 @@ dev_dependencies:
   ### Json Serialization
   ###
   json_serializable: ^6.7.1
+  freezed: ^2.4.1
   very_good_analysis: ^5.1.0
 ###
 ### Dev Dependencies
@@ -79,6 +80,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/
+    - test/fixtures/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
   # For details regarding adding assets from package dependencies, see

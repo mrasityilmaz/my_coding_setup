@@ -15,7 +15,7 @@ _Also includes:_
  -  [rest_api_package] - Network
  -  [internet_connection_checker] - Internet Connection Check
  -  [dartz] - Success or Failure with <T> type datas
- -  [json_annotation] - Json Annotation
+ -  [freezed_annotation] - Freezed Annotation 
  -  [cookie_jar] - for cookie stuffs..
 
 _Dev Dependencies:_
@@ -23,7 +23,7 @@ _Generators and Linter_
   - [build_runner]
  -  [envied_generator]
  -  [injectable_generator]
- -  [json_serializable]
+ -  [freezed]
 -   [very_good_analysis]
 
 
@@ -45,6 +45,13 @@ or
 ```rps clean_get```
 
 
+#### Oopss Dont Forget 
+The Injection Container is not generated yet. You should generate it.
+```rps model_build```
+
+
+
+
 
 **Good Luck...**
 
@@ -58,11 +65,11 @@ or
    [rest_api_package]: <https://github.com/mrasityilmaz/rest_api_package.git>
    [internet_connection_checker]: <https://pub.dev/packages/internet_connection_checker>
    [dartz]: <https://pub.dev/packages/dartz>
-   [json_annotation]: <https://pub.dev/packages/json_annotation>
+   [freezed_annotation]: <https://pub.dev/packages/freezed_annotation>
    [cookie_jar]: <https://pub.dev/packages/cookie_jar>
    [build_runner]: <https://pub.dev/packages/build_runner>
    [envied_generator]: <https://pub.dev/packages/envied_generator>
    [injectable_generator]: <https://pub.dev/packages/injectable_generator>
-   [json_serializable]: <https://pub.dev/packages/json_serializable>
+   [freezed]: <https://pub.dev/packages/freezed>
    [very_good_analysis]: <https://pub.dev/packages/very_good_analysis>
 

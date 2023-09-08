@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 
-abstract class Failure extends Equatable {
+sealed class Failure extends Equatable {
   const Failure([this.properties = const <dynamic>[]]);
   final List<Object?> properties;
 
@@ -23,4 +23,8 @@ class CacheFailure extends Failure {
   final String? errorMessage;
 }
 
-class DeletedFileFailure extends Failure {}
+class UnExpectedFailure<T> extends Failure {
+  UnExpectedFailure({this.errorMessage, this.data}) : super([errorMessage, data]);
+  final String? errorMessage;
+  final T? data;
+}
