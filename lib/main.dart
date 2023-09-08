@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:my_coding_setup/injection/injection_container.dart';
 import 'package:my_coding_setup/shared/app_theme.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  ///
+  /// Configure Dependencies for the GetIt Service Locator
+  ///
+  await configureDependencies();
   runApp(const MyApp());
 }
 
