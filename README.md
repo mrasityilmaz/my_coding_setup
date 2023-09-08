@@ -1,4 +1,4 @@
-# stacked_architecture_practices
+# my_coding_setup
 
 A new Flutter project.
 

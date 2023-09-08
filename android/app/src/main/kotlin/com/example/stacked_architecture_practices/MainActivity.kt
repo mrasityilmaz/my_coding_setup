@@ -1,4 +1,4 @@
-package com.example.stacked_architecture_practices
+package com.example.my_coding_setup
 
 import io.flutter.embedding.android.FlutterActivity
 

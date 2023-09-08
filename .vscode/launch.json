@@ -5,18 +5,18 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "stacked_architecture_practices",
+			"name": "my_coding_setup",
 			"request": "launch",
 			"type": "dart"
 		},
 		{
-			"name": "stacked_architecture_practices (profile mode)",
+			"name": "my_coding_setup (profile mode)",
 			"request": "launch",
 			"type": "dart",
 			"flutterMode": "profile"
 		},
 		{
-			"name": "stacked_architecture_practices (release mode)",
+			"name": "my_coding_setup (release mode)",
 			"request": "launch",
 			"type": "dart",
 			"flutterMode": "release"
